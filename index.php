@@ -13,7 +13,7 @@
     <meta name="referrer" content="no-referrer">
     <meta http-equiv="x-dns-prefetch-control" content="off">
 
-    <title>Stephen Horler</title>
+    <title>Stephen Horler Fixed Fee</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -53,7 +53,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Stephen Horler</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Stephen Horler Fixed Fee</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -63,13 +63,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Specialist Services</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Properties</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="tel:+61425759533"><i class="fa fa-phone"></i> 0425 759 533</a>
                     </li>
                 </ul>
             </div>
@@ -83,7 +86,7 @@
         <div class="container">
             <div class="intro-text">
                 <!-- <div class="intro-lead-in">Welcome!</div> -->
-                <div class="intro-heading">Header text goes here</div>
+                <div class="intro-heading">Fixed Fee Real Estate</div>
                 <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
@@ -94,34 +97,34 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Specialist Services</h2>
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-home fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Service One</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Sell My Property</h4>
+                    <p class="text-muted">Our selling commission is based on a fixed fee depending on your property's value. For a one BR appartment the fee is $3,850 + GST, and for a $1.5M property the fee is $12,000 + GST.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-building fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Service Two</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Rent My Property</h4>
+                    <p class="text-muted">Our rental comissions are 6% plus GST, unless you have multiple properties where it is negotiable. All properties are managed 24/7 by Stephen Horler - who has over 25 year property management expertise. We have a small rent roll that's expertly managed with low vacancy rates and arrears.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-usd fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Service Three</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Property Development</h4>
+                    <p class="text-muted">We specialise in the organising of planning permits to maximise your site's real value. We also market several projects for builders and developers in the Bayside area.</p>
                 </div>
             </div>
         </div>
@@ -133,7 +136,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Properties</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Our current and past properties.</h3>
                 </div>
             </div>
             <div class="row">
@@ -160,8 +163,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Me</h2>
-                    <h3 class="section-subheading text-muted">Contact Stephen Horler.</h3>
+                    <h2 class="section-heading">Contact Fixed Fee</h2>
+                    <h4 class="service-heading text-muted"><a href="mailto:stephenhorler@gmail.com"><i class="fa fa-envelope"></i> stephenhorler@gmail.com</a></h3>
+                    <h4 class="service-heading text-muted"><a href="tel:+61425759533"><i class="fa fa-phone"></i> 0425 759 533</a></h3><br>
                 </div>
             </div>
             <div class="row">
