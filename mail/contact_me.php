@@ -22,5 +22,10 @@ $email_body = "You have received a new message from your website contact form.\n
 $headers = "From: noreply@stephenhorler.com.au\n";
 $headers .= "Reply-To: $email_address";   
 mail($to,$email_subject,$email_body,$headers);
+<<<<<<< HEAD
 return true;
 ?>
+=======
+return true;         
+?>
+>>>>>>> 6fd3c9bff570108c458b49c62ec2b9729521d677
