@@ -1,3 +1,4 @@
+/* Function to automatically resize property images to match the automatic sizing of the first image. */
 function resize(){
   var images = document.getElementsByClassName("img-fluid");
   height = images[0].height;
@@ -7,11 +8,11 @@ function resize(){
   for(i = 1; i < images.length; i++){
     images[i].style.width = width + "px";
     images[i].style.height = height + "px";
-
   }
 }
 
-function rotateImage(){
+/* Function to rotate through header images. */
+function rotateHeaderImage(){
   var total = header.dataset.total;
 
   if(position == total){
@@ -24,6 +25,7 @@ function rotateImage(){
   header.style.backgroundImage = 'url("./img/header/header0' + position + '.jpg")';
 }
 
+/* Homepage events. */
 if(document.getElementById("header") !== null){
   var header = document.getElementById("header");
   var style = window.getComputedStyle(header);
@@ -32,5 +34,5 @@ if(document.getElementById("header") !== null){
 
   document.addEventListener('DOMContentLoaded', resize);
   window.addEventListener('resize', resize);
-  setInterval(rotateImage, 4000);
+  setInterval(rotateHeaderImage, 4000);
 }
