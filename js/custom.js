@@ -47,6 +47,19 @@ function resizePropertyImage(){
 
 /* Initialise, and run home page functions. */
 function initHome(){
+  var header = document.getElementById("header");
+  var style = window.getComputedStyle(header);
+  var image = style.getPropertyValue('background-image');
+  var position = image.charAt(image.length-7);
+  var total = header.dataset.total;
+
+  resizeHeaderImage();
+  window.addEventListener('resize', resizeHeaderImage);
+  setInterval(rotateHeaderImage, 4000);
+}
+
+/* Initialise, and run home property functions. */
+function initProperty(){
   var image = document.getElementById("property-image");
   var position = image.src.charAt(image.src.length-5);
   var total = image.dataset.total;
@@ -60,17 +73,9 @@ function initHome(){
 
 /* Home page events. */
 if(document.getElementById("header") !== null){
-  var header = document.getElementById("header");
-  var style = window.getComputedStyle(header);
-  var image = style.getPropertyValue('background-image');
-  var position = image.charAt(image.length-7);
-  var total = header.dataset.total;
-
-  document.addEventListener('DOMContentLoaded', resizeHeaderImage);
-  window.addEventListener('resize', resizeHeaderImage);
-  setInterval(rotateHeaderImage, 4000);
+  document.addEventListener('DOMContentLoaded', initHome);
 }
 /* Property page events. */
 else if(document.getElementById("property-image")){
-  document.addEventListener('DOMContentLoaded', initHome);
+  document.addEventListener('DOMContentLoaded', initProperty);
 }
