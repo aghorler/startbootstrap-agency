@@ -13,7 +13,7 @@ p {
 a {
   color: #9dd566; }
   a.active, a:active, a:focus, a:hover {
-    color: #222222; }
+    color: #7fa956; }
 
 .text-primary {
   color: #9dd567 !important; }
@@ -546,11 +546,34 @@ ul.social-buttons {
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #9dd567; }
+
 .visible-link {
   color: #2f6115; }
+
 .property-description {
   padding-left: 20px;
   padding-right: 20px; }
+
 .property-image {
   width: 80%;
   height: 100%; }
+
+@media (max-width: 1200px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    letter-spacing: 0px; } }
+
+@media (max-width: 375px) {
+  .navbar-brand {
+    font-size: 1rem; }
+  section h2.section-heading  {
+    font-size: 30px; }
+  section h4.service-heading  {
+  font-size: 20px; } }
+
+@media (max-width: 325px) {
+  .navbar-brand {
+    font-size: 0.85rem; }
+  section h2.section-heading  {
+    font-size: 25px; }
+  section h4.service-heading  {
+  font-size: 15px; } }
