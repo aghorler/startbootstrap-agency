@@ -73,9 +73,9 @@ function initProperty(){
 
 /* Home page events. */
 if(document.getElementById("header") !== null){
-  document.addEventListener('DOMContentLoaded', initHome);
+  window.addEventListener('load', initHome);
 }
 /* Property page events. */
 else if(document.getElementById("property-image")){
-  document.addEventListener('DOMContentLoaded', initProperty);
+  window.addEventListener('load', initProperty);
 }
