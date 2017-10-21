@@ -16,7 +16,7 @@ a {
     color: #222222; }
 
 .text-primary {
-  color: #fed136 !important; }
+  color: #9dd567 !important; }
 
 h1,
 h2,
@@ -51,16 +51,16 @@ section {
 
 .btn-primary {
   color: white;
-  border-color: #fed136;
-  background-color: #fed136; }
+  border-color: #9dd567;
+  background-color: #9dd567; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
-    border-color: #b48b01;
-    background-color: #fec503; }
+    border-color: #7fa956;
+    background-color: #7fa956; }
   .btn-primary:hover {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503; }
+    border-color: #7fa956;
+    background-color: #7fa956; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
@@ -80,10 +80,10 @@ section {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #fed136;
-    background-color: #fed136; }
+    border-color: #9dd567;
+    background-color: #9dd567; }
   .btn-primary .badge {
-    color: #fed136;
+    color: #9dd567;
     background-color: white; }
 
 .btn-xl {
@@ -122,7 +122,7 @@ body {
     color: #9dd566;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #222222; }
+      color: #7fa956; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -545,6 +545,6 @@ ul.social-buttons {
     outline: none;
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #fed136; }
+      background-color: #9dd567; }
 .visible-link {
   color: #2f6115; }
