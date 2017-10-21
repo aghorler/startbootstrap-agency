@@ -548,3 +548,9 @@ ul.social-buttons {
       background-color: #9dd567; }
 .visible-link {
   color: #2f6115; }
+.property-description {
+  padding-left: 20px;
+  padding-right: 20px; }
+.property-image {
+  width: 80%;
+  height: 100%; }
