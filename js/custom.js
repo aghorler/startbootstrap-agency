@@ -45,6 +45,19 @@ function resizePropertyImage(){
   height = image.height;
 }
 
+/* Initialise, and run home page functions. */
+function initHome(){
+  var image = document.getElementById("property-image");
+  var position = image.src.charAt(image.src.length-5);
+  var total = image.dataset.total;
+  var property = image.dataset.name;
+  var width = image.width;
+  var height = image.height;
+
+  window.addEventListener('resize', resizePropertyImage);
+  setInterval(rotatePropertyImage, 4000);
+}
+
 /* Home page events. */
 if(document.getElementById("header") !== null){
   var header = document.getElementById("header");
@@ -59,13 +72,5 @@ if(document.getElementById("header") !== null){
 }
 /* Property page events. */
 else if(document.getElementById("property-image")){
-  var image = document.getElementById("property-image");
-  var position = image.src.charAt(image.src.length-5);
-  var total = image.dataset.total;
-  var property = image.dataset.name;
-  var width = image.width;
-  var height = image.height;
-
-  window.addEventListener('resize', resizePropertyImage);
-  setInterval(rotatePropertyImage, 4000);
+  document.addEventListener('DOMContentLoaded', initHome);
 }
