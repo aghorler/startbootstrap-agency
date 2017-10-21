@@ -47,11 +47,11 @@ function resizePropertyImage(){
 
 /* Initialise, and run home page functions. */
 function initHome(){
-  var header = document.getElementById("header");
-  var style = window.getComputedStyle(header);
-  var image = style.getPropertyValue('background-image');
-  var position = image.charAt(image.length-7);
-  var total = header.dataset.total;
+  header = document.getElementById("header");
+  style = window.getComputedStyle(header);
+  image = style.getPropertyValue('background-image');
+  position = image.charAt(image.length-7);
+  total = header.dataset.total;
 
   resizeHeaderImage();
   window.addEventListener('resize', resizeHeaderImage);
@@ -60,12 +60,12 @@ function initHome(){
 
 /* Initialise, and run home property functions. */
 function initProperty(){
-  var image = document.getElementById("property-image");
-  var position = image.src.charAt(image.src.length-5);
-  var total = image.dataset.total;
-  var property = image.dataset.name;
-  var width = image.width;
-  var height = image.height;
+  image = document.getElementById("property-image");
+  position = image.src.charAt(image.src.length-5);
+  total = image.dataset.total;
+  property = image.dataset.name;
+  width = image.width;
+  height = image.height;
 
   window.addEventListener('resize', resizePropertyImage);
   setInterval(rotatePropertyImage, 4000);
