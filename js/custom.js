@@ -15,9 +15,11 @@ function resizeHeaderImage(){
 function rotateHeaderImage(){
   if(position == total){
     position = 1;
+    document.getElementById("intro-text").style.visibility = "visible";
   }
   else{
     position++;
+    document.getElementById("intro-text").style.visibility = "hidden";
   }
 
   header.style.backgroundImage = 'url("./img/header/header0' + position + '.jpg")';
