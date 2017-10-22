@@ -565,15 +565,18 @@ ul.social-buttons {
 @media (max-width: 375px) {
   .navbar-brand {
     font-size: 1rem; }
-  section h2.section-heading  {
+  section h2.section-heading {
     font-size: 30px; }
-  section h4.service-heading  {
+  section h4.service-heading {
   font-size: 20px; } }
 
 @media (max-width: 325px) {
   .navbar-brand {
     font-size: 0.85rem; }
-  section h2.section-heading  {
+  section h2.section-heading {
     font-size: 25px; }
-  section h4.service-heading  {
+  section h4.service-heading {
   font-size: 15px; } }
+
+a.portfolio-heading {
+  color: #212529; }
