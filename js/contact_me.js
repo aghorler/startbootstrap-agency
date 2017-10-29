@@ -12,7 +12,6 @@ $(function() {
       var email = $("input#email").val();
       var phone = $("input#phone").val();
       var message = $("textarea#message").val();
-      var location = document.title;
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
       if (firstName.indexOf(' ') >= 0) {
@@ -21,14 +20,13 @@ $(function() {
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "https://stephenhorler.com.au/mail/contact_me.php",
+        url: "https://steph/mail/contact_me.php",
         type: "POST",
         data: {
           name: name,
           phone: phone,
           email: email,
-          message: message,
-          location: location
+          message: message
         },
         cache: false,
         success: function() {
