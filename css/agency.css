@@ -158,6 +158,16 @@ header.masthead {
       margin-bottom: 25px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-shadow: 2px 2px #222222; }
+  header.masthead .btn-primary {
+    color: #9dd566;
+    background-color: #222222;
+    border-color: #222222; }
+    .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #222222 !important;
+    border-color: #7fa956 !important;
+    color: white; }
+    .btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(157, 213, 102, .9) !important; }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
