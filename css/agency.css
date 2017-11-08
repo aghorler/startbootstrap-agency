@@ -167,7 +167,8 @@ header.masthead {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  transition: background 0.3s linear; }
   header.masthead .intro-text {
     padding-top: 150px;
     padding-bottom: 100px; }
@@ -556,7 +557,8 @@ ul.social-buttons {
 
 .property-image {
   width: 80%;
-  height: 100%; }
+  height: 100%;
+  transition: all 0.3s linear; }
 
 @media (max-width: 1200px) {
   #mainNav .navbar-nav .nav-item .nav-link {
