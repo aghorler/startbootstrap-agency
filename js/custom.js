@@ -17,6 +17,13 @@ function rotateHeaderImage(){
     position = 1;
     document.getElementById("intro-text").style.visibility = "visible";
   }
+  else if(position >= 1 && position <= 7){
+    /* 11b Jean Street. */
+    position++;
+    document.getElementById("intro-heading").innerHTML = "11b Jean Street";
+    document.getElementById("button-heading").innerHTML = "Sold for $1,011,000";
+    document.getElementById("button-heading").href = "./properties/11b-jean.html";
+  }
   else{
     position++;
     document.getElementById("intro-text").style.visibility = "hidden";
