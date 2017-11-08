@@ -15,6 +15,8 @@ function resizeHeaderImage(){
 function rotateHeaderImage(){
   if(position == total){
     position = 1;
+    document.getElementById("intro-heading").innerHTML = "Fixed Fee Real Estate";
+    document.getElementById("button-heading").innerHTML = "Tell Me More";
     document.getElementById("intro-text").style.visibility = "visible";
   }
   else if(position >= 1 && position <= 7){
