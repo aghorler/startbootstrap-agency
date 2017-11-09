@@ -17,13 +17,13 @@ function rotateHeaderImage(){
     position = 1;
     document.getElementById("intro-heading").style.visibility = "visible";
     document.getElementById("intro-heading").innerHTML = "Fixed Fee Real Estate";
-    document.getElementById("button-heading").innerHTML = "Tell Me More"; 
+    document.getElementById("button-heading").innerHTML = "TELL ME<br> MORE"; 
   }
   else if(position >= 1 && position <= 7){
     /* 11b Jean Street. */
     position++;
     document.getElementById("intro-heading").style.visibility = "hidden";
-    document.getElementById("button-heading").innerHTML = "11b Jean Street. <br>Sold for $1,011,000";
+    document.getElementById("button-heading").innerHTML = "11b Jean Street<br> Sold for $1,011,000";
     document.getElementById("button-heading").href = "./properties/11b-jean.html";
   }
   else{
