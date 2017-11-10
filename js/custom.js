@@ -26,12 +26,25 @@ function rotateHeaderImage(){
     document.getElementById("button-heading").innerHTML = "11b Jean Street<br> Sold for $1,011,000";
     document.getElementById("button-heading").href = "./properties/11b-jean.html";
   }
+  else if(position >= 8 && position <= 10){
+    /* 75 Orange Street. */
+    position++;
+    document.getElementById("intro-heading").style.visibility = "hidden";
+    document.getElementById("button-heading").innerHTML = "75 Orange Street<br> 4 Bedrooms, 3 Bathrooms";
+    document.getElementById("button-heading").href = "./properties/11b-jean.html";
+  }
   else{
     position++;
     document.getElementById("intro-text").style.visibility = "hidden";
   }
 
   header.style.backgroundImage = 'url("./img/header/header0' + position + '.jpg")';
+
+  /* Preload next image. */
+  if(preload.length != total - 2 && position != total){
+    preload[position - 2] = new Image();
+    preload[position - 2].src = "./img/header/header0" + (position + 1) + ".jpg";
+  }
 }
 
 /* Function to rotate property images. */
@@ -63,6 +76,7 @@ function initHome(){
   image = style.getPropertyValue('background-image');
   position = image.charAt(image.length-7);
   total = header.dataset.total;
+  preload = [];
 
   resizeHeaderImage();
   window.addEventListener('resize', resizeHeaderImage);
