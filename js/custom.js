@@ -19,14 +19,14 @@ function rotateHeaderImage(){
     document.getElementById("intro-heading").innerHTML = "Fixed Fee Real Estate";
     document.getElementById("button-heading").innerHTML = "TELL ME<br> MORE"; 
   }
-  else if(position >= 1 && position <= 7){
+  else if(position >= 1 && position <= 6){
     /* 11b Jean Street. */
     position++;
     document.getElementById("intro-heading").style.visibility = "hidden";
     document.getElementById("button-heading").innerHTML = "11b Jean Street<br> Sold for $1,011,000";
     document.getElementById("button-heading").href = "./properties/11b-jean.html";
   }
-  else if(position >= 8 && position <= 10){
+  else if(position >= 7 && position <= 10){
     /* 75 Orange Street. */
     position++;
     document.getElementById("intro-heading").style.visibility = "hidden";
