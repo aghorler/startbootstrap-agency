@@ -141,9 +141,9 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-transition: background 0.1s linear;
-  -moz-transition: background 0.1s linear;
-  transition: background 0.1s linear; }
+  -webkit-transition: background 10ms linear;
+  -moz-transition: background 10ms linear;
+  transition: background 10ms linear; }
   header.masthead .intro-text {
     padding-top: 200px;
     padding-bottom: 50px; }
@@ -555,3 +555,6 @@ ul.social-buttons {
 
 a.portfolio-heading {
   color: #212529; }
+
+#intro-heading {
+  visibility: hidden; }

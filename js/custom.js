@@ -15,27 +15,19 @@ function resizeHeaderImage(){
 function rotateHeaderImage(){
   if(position == total){
     position = 1;
-    document.getElementById("intro-heading").style.visibility = "visible";
-    document.getElementById("intro-heading").innerHTML = "Fixed Fee Real Estate";
     document.getElementById("button-heading").innerHTML = "TELL ME<br> MORE"; 
   }
   else if(position >= 1 && position <= 6){
     /* 11b Jean Street. */
     position++;
-    document.getElementById("intro-heading").style.visibility = "hidden";
     document.getElementById("button-heading").innerHTML = "11b Jean Street<br> Sold for $1,011,000";
     document.getElementById("button-heading").href = "./properties/11b-jean.html";
   }
   else if(position >= 7 && position <= 10){
     /* 75 Orange Street. */
     position++;
-    document.getElementById("intro-heading").style.visibility = "hidden";
     document.getElementById("button-heading").innerHTML = "75 Orange Street<br> 4 Bedrooms, 3 Bathrooms";
     document.getElementById("button-heading").href = "./properties/11b-jean.html";
-  }
-  else{
-    position++;
-    document.getElementById("intro-text").style.visibility = "hidden";
   }
 
   header.style.backgroundImage = 'url("./img/header/header0' + position + '.jpg")';
