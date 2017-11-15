@@ -13,10 +13,10 @@ p {
 a {
   color: #9dd566; }
   a:hover {
-    color: #7fa956; }
+    color: #92c660; }
 
 .text-primary {
-  color: #9dd566 !important; }
+  color: #212529 !important; }
 
 h1,
 h2,
@@ -57,8 +57,8 @@ section {
   background-color: #9dd566;
   border-color: #9dd566; }
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #7fa956 !important;
-    border-color: #7fa956 !important;
+    background-color: #92c660 !important;
+    border-color: #92c660 !important;
     color: white; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(157, 213, 102, .9) !important; }
@@ -95,7 +95,7 @@ body {
     color: #9dd566;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #7fa956; }
+      color: #92c660; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -114,7 +114,7 @@ body {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #222222; }
+    background-color: #212529; }
     #mainNav .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
@@ -159,14 +159,14 @@ header.masthead {
       line-height: 50px;
       margin-bottom: 25px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      text-shadow: 2px 2px #222222; }
+      text-shadow: 2px 2px #212529; }
   header.masthead .btn-primary {
     color: #9dd566;
-    background-color: #222222;
-    border-color: #222222; }
+    background-color: #212529;
+    border-color: #212529; }
     .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #222222 !important;
-    border-color: #7fa956 !important;
+    background-color: #212529 !important;
+    border-color: #92c660 !important;
     color: white; }
     .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(157, 213, 102, .9) !important; }

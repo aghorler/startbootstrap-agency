@@ -5,6 +5,14 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://stephenhorler.com.au/properties/75-orange.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://stephenhorler.com.au/properties/11b-jean.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://stephenhorler.com.au/properties/53b-marriott.html</loc>
     <changefreq>monthly</changefreq>
   </url>
@@ -13,7 +21,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://stephenhorler.com.au/properties/44-jack-holt.html</loc>
+    <loc>https://stephenhorler.com.au/properties/11b-jean-lease.html</loc>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>
