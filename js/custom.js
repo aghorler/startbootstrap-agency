@@ -23,7 +23,7 @@ function rotateHeaderImage(){
     document.getElementById("button-heading").innerHTML = "11b Jean Street<br> Sold for $1,011,000";
     document.getElementById("button-heading").href = "./properties/11b-jean.html";
   }
-  else if(position >= 7 && position <= 10){
+  else if(position >= 7 && position <= 11){
     /* 75 Orange Street. */
     position++;
     document.getElementById("button-heading").innerHTML = "75 Orange Street<br> 4 Bedrooms, 3 Bathrooms";
