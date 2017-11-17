@@ -15,7 +15,8 @@ function resizeHeaderImage(){
 function rotateHeaderImage(){
   if(position == total){
     position = 1;
-    document.getElementById("button-heading").innerHTML = 'TELL ME MORE<br><i class="fa fa-arrow-down"></i>'; 
+    document.getElementById("button-heading").innerHTML = 'TELL ME MORE<br><i class="fa fa-arrow-down"></i>';
+    document.getElementById("button-heading").href = "#services";
   }
   else if(position >= 1 && position <= 6){
     /* 11b Jean Street. */
