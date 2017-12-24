@@ -22,21 +22,21 @@ function rotateHeaderImage(){
     /* 11b Jean Street. */
     position++;
     document.getElementById("button-heading").innerHTML = "11b Jean Street<br> Sold for $1,011,000";
-    document.getElementById("button-heading").href = "./properties/11b-jean.html";
+    document.getElementById("button-heading").href = "https://stephenhorler.com.au/properties/11b-jean.html";
   }
   else if(position >= 7 && position <= 11){
     /* 75 Orange Street. */
     position++;
     document.getElementById("button-heading").innerHTML = "75 Orange Street<br> 4 Bedrooms, 3 Bathrooms";
-    document.getElementById("button-heading").href = "./properties/11b-jean.html";
+    document.getElementById("button-heading").href = "https://stephenhorler.com.au/properties/11b-jean.html";
   }
 
-  header.style.backgroundImage = 'url("./img/header/header0' + position + '.jpg")';
+  header.style.backgroundImage = 'url("https://stephenhorler.com.au/img/header/header0' + position + '.jpg")';
 
   /* Preload next image. */
   if(preload.length != total - 2 && position != total){
     preload[position - 2] = new Image();
-    preload[position - 2].src = "./img/header/header0" + (position + 1) + ".jpg";
+    preload[position - 2].src = "https://stephenhorler.com.au/img/header/header0" + (position + 1) + ".jpg";
   }
 }
 
