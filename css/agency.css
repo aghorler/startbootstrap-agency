@@ -21,7 +21,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #9bf184 !important;
+  color: #9bd662 !important;
 }
 
 h1,
@@ -162,6 +162,7 @@ img::-moz-selection {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #fff;
+    border-bottom: 1px #e6e6e6 solid;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
