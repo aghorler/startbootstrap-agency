@@ -86,7 +86,10 @@ function initProperty(){
   height = image.height;
 
   window.addEventListener('resize', resizePropertyImage);
-  setInterval(rotatePropertyImage, 4000);
+
+  if(total > 1){
+    setInterval(rotatePropertyImage, 4000);
+  }
 }
 
 /* Home page events. */
