@@ -13,22 +13,71 @@ function resizeHeaderImage(){
 
 /* Function to rotate through header images. */
 function rotateHeaderImage(){
+  /* 1 - sold record price.
+  2 - Happy sellers and purchasers
+  3- Record price for street
+  8 - More townhouses wanted for cashed-up buyers
+  9 - The search is finally over! */
+
   if(position == total){
     position = 1;
+    document.getElementById("button-heading").style.visibility = "visible";
     document.getElementById("button-heading").innerHTML = 'TELL ME MORE<br><i class="fa fa-arrow-down"></i>';
     document.getElementById("button-heading").href = "#services";
   }
-  else if(position >= 1 && position <= 6){
+  else if(position == 1){
+    position++;
+    document.getElementById("button-heading").style.visibility = "visible";
+    document.getElementById("button-heading").innerHTML = 'Happy buyers and sellers';
+    document.getElementById("button-heading").href = "#services";
+  }
+  else if(position == 2){
+    position++;
+    document.getElementById("button-heading").style.visibility = "visible";
+    document.getElementById("button-heading").innerHTML = 'TELL ME MORE<br><i class="fa fa-arrow-down"></i>';
+    document.getElementById("button-heading").href = "#services";
+  }
+  else if(position == 3){
+    position++;
+    document.getElementById("button-heading").style.visibility = "visible";
+    document.getElementById("button-heading").innerHTML = 'Record price for street';
+    document.getElementById("button-heading").href = "#services";
+  }
+  else if(position >= 4 && position <= 5){
     /* 11b Jean Street. */
     position++;
-    document.getElementById("button-heading").innerHTML = "11b Jean Street<br> Sold for $1,011,000";
+    document.getElementById("button-heading").style.visibility = "visible";
+    document.getElementById("button-heading").innerHTML = "Cheltenham - Sold for $1,011,000";
     document.getElementById("button-heading").href = "./properties/11b-jean.html";
   }
-  else if(position >= 7 && position <= 11){
-    /* 75 Orange Street. */
+  else if(position == 6){
     position++;
-    document.getElementById("button-heading").innerHTML = "75 Orange Street<br> 4 Bedrooms, 3 Bathrooms";
+    document.getElementById("button-heading").style.visibility = "visible";
+    document.getElementById("button-heading").innerHTML = "Another record price";
+    document.getElementById("button-heading").href = "#services";
+  }
+  else if(position == 7){
+    position++;
+    document.getElementById("button-heading").style.visibility = "visible";
+    document.getElementById("button-heading").innerHTML = "The search is finally over!";
+    document.getElementById("button-heading").href = "#services";
+  }
+  else if(position == 9){
+    position++;
+    document.getElementById("button-heading").style.visibility = "hidden";
+  }
+  else if((position >= 8 && position <= 13) && position !== 9){
+    /* 11b Jean Street. */
+    position++;
+    document.getElementById("button-heading").style.visibility = "visible";
+    document.getElementById("button-heading").innerHTML = "Cheltenham - Sold for $1,011,000";
     document.getElementById("button-heading").href = "./properties/11b-jean.html";
+  }
+  else{
+    position = 1;
+    document.getElementById("button-heading").style.visibility = "visible";
+    document.getElementById("button-heading").innerHTML = 'TELL ME MORE<br><i class="fa fa-arrow-down"></i>';
+    document.getElementById("button-heading").href = "#services";
   }
 
   header.style.backgroundImage = 'url("./img/header/header0' + position + '.jpg")';
@@ -73,7 +122,7 @@ function initHome(){
 
   resizeHeaderImage();
   window.addEventListener('resize', resizeHeaderImage);
-  setInterval(rotateHeaderImage, 4000);
+  setInterval(rotateHeaderImage, 2000);
 }
 
 /* Initialise, and run home property functions. */
