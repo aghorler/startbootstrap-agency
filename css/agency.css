@@ -598,18 +598,14 @@ a.portfolio-heading {
 }
 
 #ten-img {
-  background-image: url("../img/header/header010.jpg");
-}
-
-#eleven-img {
   background-image: url("../img/header/header011.jpg");
 }
 
-#twelve-img {
+#eleven-img {
   background-image: url("../img/header/header012.jpg");
 }
 
-#thirteen-img {
+#twelve-img {
   background-image: url("../img/header/header013.jpg");
 }
 
